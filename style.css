@@ -31,7 +31,7 @@ body{
     height: 150px;
    border-radius: 110px;
    margin-left: 25px;
-  border:12px solid  rgb(180, 200, 238);
+  border:12px solid  rgb(205, 224, 240);
   
 }
 .container h1{
@@ -144,7 +144,7 @@ body{
 }
 .attendance th,.attendance td{
     border: 2px solid rgb(15, 15, 55);
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-align: center;
     color: azure;
     padding: 9px 9px;
@@ -162,6 +162,9 @@ body{
             height:30vh;
            
         }
+        .info{
+            font-size: 5vw;
+        }
         #dp{
            position: relative;
              margin-top: 8vh;
@@ -175,8 +178,12 @@ body{
          .info table th,td{
              font-size: 3vw;
          }
+         .scoreCard{
+            font-size: 5vw;
+         }
         #studentPic{
          align-self: auto;  
+         border:none;
         }
         .container h1{
             height: 1.5rem;
